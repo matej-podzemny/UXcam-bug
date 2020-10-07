@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["dom", "esnext"],
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "strict": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/types/*", "./node_modules/@types"],
+    "paths": {
+      "styled-components": ["./src/types/styled-components.ts"],
+      "styled-components/native": ["styled-components/native"],
+
+      "@assets/": ["assets/"],
+      "@assets/*": ["assets/*"],
+      "@copy": ["src/copy/"],
+      "@copy/*": ["src/copy/*"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
+      "@constants/*": ["src/constants/*"],
+      "@constants": ["src/constants"],
+      "@services/*": ["src/services/*"],
+      "@services": ["src/services"],
+      "@screens": ["src/screens"],
+      "@screens/*": ["src/screens/*"],
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/utils"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

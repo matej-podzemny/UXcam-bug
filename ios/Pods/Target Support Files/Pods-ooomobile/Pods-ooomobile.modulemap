@@ -1,0 +1,6 @@
+module Pods_ooomobile {
+  umbrella header "Pods-ooomobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
