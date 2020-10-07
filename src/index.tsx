@@ -6,6 +6,12 @@ import Navigator from './navigation';
 
 import { lightTheme } from './themes';
 
+// @ts-ignore
+import RNUxcam from 'react-native-ux-cam';
+
+RNUxcam.optIntoSchematicRecordings();
+RNUxcam.startWithKey('28ubokci1b5dsso');
+
 const App = () => {
   useEffect(() => {
     SplashScreen.hide();

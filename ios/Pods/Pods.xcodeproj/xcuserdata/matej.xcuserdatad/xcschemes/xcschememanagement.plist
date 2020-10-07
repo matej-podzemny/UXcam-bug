@@ -124,6 +124,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RNUxcam.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RNVectorIcons.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -220,6 +225,11 @@
 			<false/>
 		</dict>
 		<key>ReactCommon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UXCam.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

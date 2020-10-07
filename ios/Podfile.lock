@@ -329,8 +329,12 @@ PODS:
     - React
   - RNScreens (2.11.0):
     - React
+  - RNUxcam (5.2.0):
+    - React
+    - UXCam (~> 3.2.4)
   - RNVectorIcons (7.1.0):
     - React
+  - UXCam (3.2.6)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -395,6 +399,7 @@ DEPENDENCIES:
   - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNUxcam (from `../node_modules/react-native-ux-cam`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -411,6 +416,7 @@ SPEC REPOS:
     - Flipper-RSocket
     - FlipperKit
     - OpenSSL-Universal
+    - UXCam
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -490,6 +496,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNUxcam:
+    :path: "../node_modules/react-native-ux-cam"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   Yoga:
@@ -545,7 +553,9 @@ SPEC CHECKSUMS:
   RNPermissions: 067727df624665d4a6c8e2cffcc172ba608b96ed
   RNReanimated: dd8c286ab5dd4ba36d3a7fef8bff7e08711b5476
   RNScreens: 0e91da98ab26d5d04c7b59a9b6bd694124caf88c
+  RNUxcam: 5fda8c568f9788b78eefc6637d5c95450086d077
   RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
+  UXCam: 99f4310d7e0f4aad0a73306124a8c2d104ccaf9d
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
