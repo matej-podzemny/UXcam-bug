@@ -1,6 +1,6 @@
 {
   "name": "RNUxcam",
-  "version": "5.2.0",
+  "version": "5.3.2",
   "summary": "React Native wrapper for uxcam.com.",
   "description": "RNUxcam - React Native wrapper for uxcam.com.",
   "homepage": "https://github.com/negativetwelve/react-native-ux-cam",
@@ -9,21 +9,21 @@
     "author": "author@domain.cn"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "source": {
     "git": "https://github.com/negativetwelve/react-native-ux-cam.git",
-    "tag": "5.2.0"
+    "tag": "5.3.2"
   },
   "source_files": "ios/**/*.{h,m}",
   "requires_arc": true,
   "static_framework": true,
   "dependencies": {
-    "React": [
+    "React-Core": [
 
     ],
     "UXCam": [
-      "~> 3.2.4"
+      "~> 3.3.3"
     ]
   }
 }
